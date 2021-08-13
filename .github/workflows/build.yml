@@ -19,4 +19,4 @@ jobs:
       run: |
         git config user.name "spicyriceball"
         git config user.email "spicyriceballs@protonmail.com"
-        git add sink/file.pdf && git commit -am "[skip ci] automated push" && git push
+        git add file.pdf && git commit -am "[skip ci] automated push" && git push
