@@ -14,7 +14,7 @@ jobs:
         latexmk_use_xelatex: true
     - name: Check pdf file
       run: |
-        file cv.pdf | grep -q ' PDF '
+        file file.pdf | grep -q ' PDF '
     - name: Run deploy script
       run: |
         git config user.name "spicyriceball"
