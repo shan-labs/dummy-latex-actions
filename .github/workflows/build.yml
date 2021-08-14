@@ -15,6 +15,9 @@ jobs:
     - name: Check pdf file
       run: |
         file file.pdf | grep -q ' PDF '
+    - name: ps
+      run: |
+        docker ps
     - name: Run deploy script
       run: |
         git config user.name "spicyriceball"
